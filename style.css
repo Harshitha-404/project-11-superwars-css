@@ -1,4 +1,47 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,800;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Nunito Sans;
+  background-color: white;
+  text-align: center;
+}
+
+#image {
+  display: grid;
+  grid-template-columns: 30%30%30%;
+}
+
+.count {
+  display: grid;
+  grid-template-columns: 40%40%;
+  grid-row: auto;
+  grid-gap: 1.5rem;
+  padding-left: 100px;
+}
+
+.commit,
+.camp,
+.cota,
+.call {
+  border: 2px solid grey;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40%40%;
+  grid-row: auto;
+  grid-gap: 1.5rem;
+
+}
+
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
+  padding-top: 100px;
+  padding-right: 100px;
 }
